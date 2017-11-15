@@ -25,23 +25,39 @@
 }
 
 .result{
-	background: #FAD8F0
+	background: #FAD8F0;
+	height: 100vh;
 }
 
 .result .col-xs-6{
 	background-color: #e9e9e9;
 }
-.res img{
-	width: 100%;
+
+.res{
+	padding-top: 30px;
 }
 
-.res .tenmei{
+.res img{
+	height:100%;
+}
+
+.gazo{
+	text-align: center;
+	height:6em;
+}
+
+.tenmei{
 	font-size: 2em;
 	text-align: center;
+	line-height: 2em;
 }
-.res .col-xs-6{
-	background-color: #FFFFFF;
+
+.data{
+	display: table-cell;
+	vertical-align: middle;
 }
-.res p{
-	line-height: 100%;
+
+.hoshi{
+	display: block;
+	line-height: 3em;
 }
